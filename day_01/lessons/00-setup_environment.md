@@ -1,7 +1,7 @@
 <h1 align="center">Set up your environment</h1>
 
 ## Requirements
-Before starting using the project you need to have the following requrirements:
+Before starting to use the project you need to have the following requirements:
 ```
 - Github account
 - Git
@@ -9,9 +9,9 @@ Before starting using the project you need to have the following requrirements:
 ```
 1. First you need to create an account on [Github.com](https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F&source=header-home)
 
-2. Install Git and python
+2. Install Git and Python
 
-**Ubuntu :**
+**Ubuntu:**
 Open the terminal and run the following commands.
 - Step 1 — Update and Upgrade
 ```bash
@@ -35,29 +35,29 @@ sudo apt install build-essential libssl-dev libffi-dev python3-dev
 ```bash
 sudo apt install -y python3-venv
 ```
-**Windows :**
+**Windows:**
 - Step 1: Install python
 1. Download `Python` from [here](https://www.python.org/ftp/python/3.8.5/python-3.8.5-amd64.exe)
-2. Double click the downloaded file.
+2. Double-click the downloaded file.
 3. Check the box for adding python to the path, and click install.
 4. once the install complete click close.
 - Step 2: Install git bash
-`git bash` is program similar to the terminal in ubuntu, this program comes with git pre-installed and you can use nerby the same commands in linux.
+`git bash` is a program similar to the terminal in Ubuntu, this program comes with git pre-installed and you can use nerby the same commands in Linux.
 1. Download `git bash` from [here](https://git-scm.com/download/win)
 2. Double click the downloaded file.
 3. Proceed with the installation (next next next next with default settings suggested).
 
 ## Get started
-After installing the requirements, now we can start the work, this instructions are the same for both systems `Windows` and `Ubuntu`.
+After installing the requirements, we can start the work, these instructions are the same for both systems `Windows` and `Ubuntu`.
 1. Config your git:
-open the terminal (or git bash for windows user) and run the following commands.
+open the terminal (or git bash for Windows user) and run the following commands.
 ```
 git config --global user.name "your_username"
 git config --global user.email "your_email"
 ```
 *Note don't forget to replace `your_username` and `your_email` with your information.*
 
-2. Get your copie of the python for finance project.
+2. Get your copie of the python project.
 - Now after you have your own github, you need to do a fork for this project (fork is copying a project to your projects)
 - In the top right of this page press the button `fork` to do a fork for this project.
 - Now you have your own copie of the project which is by the way linked by the original project.
@@ -68,7 +68,7 @@ git config --global user.email "your_email"
     - Copy the generated ssh public key (`cat /path/to/public/key.pub` path is outputed by the previous command).
     - Open your github account and navigate to the `settings` then `SSH and GPG keys`, click on `new SSH key`, give a title (whatever you want) and past the public key in the `key` area, finally click `Add SSH key`.
 4. clone the repo:
-go to your repositories and open the python for finance repo, click on the code button (in green color), copie the link, and open your terminal, then 
+go to your repositories and open the python repo, click on the code button (in green color), copie the link, and open your terminal, then 
 - change the working directory to Desktop by runing:
 ```bash
 cd Desktop
@@ -76,11 +76,11 @@ cd Desktop
 *Note if your system is in french you will need to replace Desktop with Bureau*
 - Clone the project (replace <username> with your username without `<>`)
 ```bash
-git clone git@github.com:<username>/python-for-finance.git
+git clone git@github.com:<username>/intro-python.git
 ```
 - Cd into the project directory:
 ```bash
-cd Python_For_Finance
+cd intro-python
 ```
 5. Now let's installed the requirement packages.
 - Create a virtual environment
